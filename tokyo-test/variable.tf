@@ -30,7 +30,7 @@ variable "private_subnet_ips" {
 variable "instance_type" {
   type        = string
   description = "Type of EC2 instance to launch. Example: t2.micro"
-  default = "t3.micro"
+  default = "t2.micro"
 }
 variable "amis" {
   type = map(any)
